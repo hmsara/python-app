@@ -1,0 +1,9 @@
+1 : docker build .
+2: docker run -it id image
+3: docker run -it  --name python-app-cont
+      docker stop python-app
+      docker start python-app
+4 docker container prune
+   docker rmi id image
+5 docker build -t python-img1
+6 docker run -i  --rm --name python-app-cont python-img1
